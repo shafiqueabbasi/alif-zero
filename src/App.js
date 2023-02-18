@@ -1,20 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
-import { Button } from 'react-bootstrap';
+import Header from '../src/components/headerSection';
+import Hero from '../src/components/heroSection';
+import Client from '../src/components/clientsSection';
+import AboutUs from '../src/components/aboutUsSection';
+import WhyUs from '../src/components/whyUsSection';
+import Skill from '../src/components/skillSection'; 
+import Services from '../src/components/servicesSection';
+import CTA from '../src/components/ctaSection';
+import Portfolio from '../src/components/portfolioSection';
+import Team from '../src/components/teamSection';
+import Pricing from '../src/components/pricingSection';
+import Frequently from '../src/components/frequentlySection';
+import Contact from '../src/components/contactSection';
+import Footer from '../src/components/footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Bootstrap 5 with React</h1>
-        <Button variant="primary">Primary</Button>{' '}
-        <Button variant="secondary">Secondary</Button>{' '}
-        <Button variant="success">Success</Button>{' '}
-        <Button variant="warning">Warning</Button>{' '}
-        <Button variant="danger">Danger</Button> <Button variant="info">Info</Button>{' '}
-        <Button variant="light">Light</Button> <Button variant="dark">Dark</Button>{' '}
-        <Button variant="link">Link</Button>
-    </div>
+    <>
+      <Header/>
+      <Hero/>
+      <Client/>
+      <AboutUs/>
+      <WhyUs />
+      <Skill />
+      <Services/>
+      <CTA/>
+      <Portfolio />
+      <Team/>
+      <Pricing />
+      <Frequently/>
+      <Contact/>
+      <Footer/>
+    </>
   );
 }
 
 export default App;
+ 
