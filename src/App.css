@@ -58,7 +58,7 @@ body {
 
 a {
   color: #47b2e4;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
@@ -168,7 +168,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(40, 58, 90, 0.9) !important;
 }
 
 #header .logo {

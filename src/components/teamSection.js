@@ -3,7 +3,7 @@ import team1 from '../assets/img/team/team-1.jpg'
 import team2 from '../assets/img/team/team-2.jpg'
 import team3 from '../assets/img/team/team-3.jpg'
 import team4 from '../assets/img/team/team-4.jpg'
-import { FaFacebookF,FaInstagram,FaLinkedin,FaTwitter } from 'react-icons/fa';
+import { FaFacebookF,FaInstagram,FaLinkedin,FaTwitter,FaSkype } from 'react-icons/fa';
 
 function Team() {
   return (
@@ -26,7 +26,6 @@ function Team() {
                 <span>Chief Executive Officer</span>
                 <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
                 <div class="social">
-                  
                   <a href=""><FaTwitter/></a>
                   <a href=""><FaFacebookF/></a>
                   <a href=""><FaInstagram/></a>

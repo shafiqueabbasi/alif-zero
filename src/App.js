@@ -18,17 +18,17 @@ function App() {
   return (
     <>
       <Header/>
-      <Hero/>
+      <Hero />
       <Client/>
       <AboutUs/>
-      <WhyUs />
-      <Skill />
+      {/* <WhyUs /> */}
+      {/* <Skill /> */}
       <Services/>
-      <CTA/>
+      {/* <CTA/> */}
       <Portfolio />
       <Team/>
       <Pricing />
-      <Frequently/>
+      {/* <Frequently/> */}
       <Contact/>
       <Footer/>
     </>
